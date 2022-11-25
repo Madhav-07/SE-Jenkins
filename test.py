@@ -3,19 +3,19 @@ from program import summation
 
 class TestSummation(unittest.TestCase):
   def test_Sum1(self):
-    result1 = summation(2)
-    self.assertEqual(result1,3)
+    result1 = fib(2)
+    self.assertEqual(result1,1)
   
   def test_Sum2(self):
-    result2 = summation(0)
+    result2 = fib(0)
     self.assertEqual(result2,0)
     
   def test_Sum3(self):
-    result3 = summation(5)
-    self.assertEqual(result3,15)
+    result3 = fib(6)
+    self.assertEqual(result3,8)
     
   def test_Sum4(self):
-    result4 = summation(3)
+    result4 = summation(9)
     self.assertEqual(result4,9)
     
   def test_Sum5(self):
