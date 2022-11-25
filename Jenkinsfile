@@ -6,6 +6,11 @@ agent any
                 git "https://github.com/Madhav-07/SE-Jenkins.git"
             }
         }
+        stage('Show Files') {
+            steps {
+                sh "ls"
+            }
+        }
         stage('Run Code') {
             steps {
                 sh "/usr/bin/python3 program.py"
