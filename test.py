@@ -15,11 +15,11 @@ class TestSummation(unittest.TestCase):
     self.assertEqual(result3,8)
     
   def test_Sum4(self):
-    result4 = summation(9)
+    result4 = fib(9)
     self.assertEqual(result4,9)
     
   def test_Sum5(self):
-    result5 = summation(10)
+    result5 = fib(10)
     self.assertEqual(result5,10)
     
 if __name__ == "__main__":
