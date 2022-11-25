@@ -1,7 +1,7 @@
 import unittest
 from program import summation
 
-class TestSummation(unittest.Testcase):
+class TestSummation(unittest.TestCase):
   def test_Sum1(self):
     result1 = summation(2)
     self.assertEqual(result1,3)
