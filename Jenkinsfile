@@ -13,7 +13,7 @@ agent any
         }
         stage('Test Code') {
             steps {
-                sh "\usr/bin/python3 test.py"
+                sh "/usr/bin/python3 test.py"
             }
         }
     }
