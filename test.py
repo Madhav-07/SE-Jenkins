@@ -1,5 +1,5 @@
 import unittest
-from program import summation
+from program import fib
 
 class TestSummation(unittest.TestCase):
   def test_Sum1(self):
