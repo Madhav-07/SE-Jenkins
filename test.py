@@ -14,5 +14,13 @@ class TestSummation(unittest.TestCase):
     result3 = summation(5)
     self.assertEqual(result3,15)
     
+  def test_Sum4(self):
+    result4 = summation(3)
+    self.assertEqual(result4,9)
+    
+  def test_Sum5(self):
+    result5 = summation(10)
+    self.assertEqual(result5,10)
+    
 if __name__ == "__main__":
   unittest.main()
